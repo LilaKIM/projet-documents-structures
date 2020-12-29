@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="page-header">
+                <h1 data-template="config:app-title">Generated page</h1>
+            </div>
+            
+            <div class="col-md-12">
+                <table width="100%" height="20%">
+                <form action="" method="post">
+                    <tr>
+                        <td align="center">
+                                <label for="type">Type : </label>
+                            </td>
+                        <td align="center">
+                            <input type="radio" id="type" name="type" value="publication" checked="checked"/>
+                            <label for="type">Date de la publication</label>
+                            <input type="radio" id="type" name="type" value="source"/>
+                            <label for="type">Date de la source</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                                <label for="date">Date : </label>
+                            </td>
+                        <td align="center">
+                            <select name="date" id="date">
+                            <option value="1800" selected="yes">1800</option>
+                            <option value="1900">1900</option>
+                            <option value="2000">2000</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                                <label for="terme">Entrer un terme que vous recherchez : </label>
+                            </td>
+                        <td align="center">
+                                <input name="terme"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                                <button type="submit">Recherche plein text</button>
+                            </td>
+                    </tr>
+                </form>
+                </table>
+                <br/>
+                <div data-template="app:recherchePleinTexte"/>
+            </div>
+        </div>
+        <div class="col-md-4">
+			<h2>Navigation</h2>
+			<div>
+				<ul>
+					<li xmlns="">
+						<a href="index.html">
+							La page d'accueil
+						</a>
+					</li>
+					<li xmlns="">
+						<a href="recherche.html">
+							La page de recherche plein texte
+						</a>
+					</li>
+					<li xmlns="">
+						<a href="affichage.html">
+							La page d'affichage
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+        
+        
+    </div>
+</div>

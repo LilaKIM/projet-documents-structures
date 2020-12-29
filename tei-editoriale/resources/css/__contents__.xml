@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/documents-structures/resources/css" version="1" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.773+01:00">
+    <acl entries="0" version="1"/>
+    <resource type="BinaryResource" name="style.css" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.778+01:00" modified="2020-12-29T18:43:38.54+01:00" filename="style.css" mimetype="text/css">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

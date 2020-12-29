@@ -1,0 +1,12 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/documents-structures/data" version="1" owner="admin" group="dba" mode="755" created="2020-12-10T16:50:16.349+01:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="SIDDHARTHA.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T03:11:46.795+01:00" modified="2020-12-29T03:11:46.795+01:00" filename="SIDDHARTHA.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Wuthering-Heights.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-25T20:59:19.043+01:00" modified="2020-12-25T20:59:19.043+01:00" filename="Wuthering-Heights.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="Madame-Bovary.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-25T20:59:18.77+01:00" modified="2020-12-25T20:59:18.77+01:00" filename="Madame-Bovary.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

@@ -1,0 +1,6 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/documents-structures/templates" version="1" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.785+01:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="page.html" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.793+01:00" modified="2020-12-26T03:06:40.586+01:00" filename="page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+</collection>

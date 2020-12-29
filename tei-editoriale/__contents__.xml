@@ -1,0 +1,37 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/documents-structures" version="1" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.517+01:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="recherche.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-26T03:08:14.435+01:00" modified="2020-12-29T18:26:54.411+01:00" filename="recherche.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="affichage.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T03:47:59.556+01:00" modified="2020-12-29T19:25:57.837+01:00" filename="affichage.html" mimetype="application/xhtml+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="expath-pkg.xml" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.562+01:00" modified="2020-12-10T16:49:40.633+01:00" filename="expath-pkg.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="repo.xml" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.61+01:00" modified="2020-12-10T16:49:40.828+01:00" filename="repo.xml" mimetype="text/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="collection.xconf" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.633+01:00" modified="2020-12-25T05:58:34.193+01:00" filename="collection.xconf" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="error-page.html" skip="no" owner="admin" group="dba" mode="664" created="2020-12-10T16:49:37.682+01:00" modified="2020-12-10T16:49:40.667+01:00" filename="error-page.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="build.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-10T16:49:37.966+01:00" modified="2020-12-10T16:49:40.68+01:00" filename="build.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.html" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T20:22:18.813+01:00" modified="2020-12-29T20:24:33.011+01:00" filename="index.html" mimetype="text/html">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="controller.xql" skip="no" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.712+01:00" modified="2020-12-10T16:49:40.692+01:00" filename="controller.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="BinaryResource" name="pre-install.xql" skip="no" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.741+01:00" modified="2020-12-10T16:49:40.701+01:00" filename="pre-install.xql" mimetype="application/xquery">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="resources" filename="resources"/>
+    <subcollection name="templates" filename="templates"/>
+    <subcollection name="modules" filename="modules"/>
+    <subcollection name="data" filename="data"/>
+</collection>

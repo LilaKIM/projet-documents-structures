@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="page"/>
+    </start>
+    
+    <define name="page">
+        <element name="page">
+            <ref name="head"/>
+            <ref name="body"/>
+        </element>
+    </define>
+    
+    <define name="head">
+        <element name="head">
+            <ref name="titre"/>
+            <ref name="sous_titre"/>
+            <ref name="auteur"/>
+        </element>
+    </define>
+
+    <define name="sous_titre">
+        <element name="sous_titre">
+            <text/>
+        </element>
+    </define>
+    
+    <define name="auteur">
+        <element name="auteur">
+            <text/>
+        </element>
+    </define>
+    
+    <define name="body">
+        <element name="body">
+            <ref name="presentation"/>
+            <ref name="navigation"/>
+            <ref name="difficulte"/>
+        </element>
+    </define>
+    
+    <define name="presentation">
+        <element name="presentation">
+            <ref name="projet"/>
+            <ref name="etapes"/>
+        </element>
+    </define>
+    
+    <define name="projet">
+        <element name="projet">
+            <ref name="titre"/>
+            <ref name="texte"/>
+        </element>
+    </define>
+    
+    <define name="titre">
+        <element name="titre">
+            <text/>
+        </element>
+    </define>
+    
+    <define name="texte">
+        <element name="texte">
+            <text/>
+        </element>
+    </define>
+    
+    <define name="etapes">
+        <element name="etapes">
+            <ref name="titre"/>
+            <oneOrMore>
+                <ref name="texte"/>
+            </oneOrMore>
+        </element>
+    </define>
+    
+    <define name="navigation">
+        <element name="navigation">
+            <oneOrMore>
+                <ref name="link"/>
+            </oneOrMore>
+        </element>
+    </define>
+    
+    <define name="link">
+        <element name="link">
+            <attribute name="url">
+                <data type="string"/>
+            </attribute>
+            <text/>
+        </element>
+    </define>
+    
+    <define name="difficulte">
+        <element name="difficulte">
+            <zeroOrMore>
+                <ref name="texte"/>
+            </zeroOrMore>
+        </element>
+    </define>
+</grammar>

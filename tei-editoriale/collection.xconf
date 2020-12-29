@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://exist-db.org/collection-config/1.0">
+    <index xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <fulltext default="all" attributes="false"/>
+        <!-- Lucene index is configured below -->
+        <lucene>
+	        <analyzer class="org.apache.lucene.analysis.standard.StandardAnalyzer">
+                <param name="stopwords" type="org.apache.lucene.analysis.util.CharArraySet"/>
+            </analyzer>
+	        <text qname="tei:TEI"/>
+	        <text qname="tei:p">
+	            <inline qname="tei:hi"/>
+            </text>
+            <text qname="tei:p"/>
+        </lucene>
+    </index>
+</collection>

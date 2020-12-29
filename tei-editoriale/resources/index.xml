@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style_index.xsl"?><?xml-model href="index.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><page>
+	<head>
+		<titre>ACCUEIL</titre>
+		<sous_titre>M2 TAL - Documents structurés</sous_titre>
+		<auteur>Lila KIM</auteur>
+	</head>
+	<body>
+		<presentation>
+			<projet>
+				<titre>PROJET</titre>
+				<texte>
+					Ce site contient l'ensemble des exercices effectués dans le cadre du cours "Documents Structurés" au premier semestre de Master 2 Tratiement Automatique des Langues à l'Université Paris 3 - Sorbonne Nouvelle.
+				</texte>
+			</projet>
+			<etapes>
+				<titre>ÉTAPES DE MISE EN ŒUVRE</titre>
+				<texte>
+					Le projet est composé de deux grandes étapes : 1) transformer les documents au format .odt en xml selon le standard de la TEI ; 2) à l'aide d'un logiciel eXist-db, créer un site internet en utilisant le langage Xquery et la feuille de style XSLT. 
+				</texte>
+				<texte>
+					Dans ce site, trois interfaces ont été mises en œuvre. Cette page d'accueil permet la présentation du projet et des difficultés rencontrées et elle a été créé à partir d'un fichier xml par une feuille de style XSLT pour obtenir un affichage html. Pour obtenir le résultat, j'ai utilisé la commande 'xsltproc index.xml index.xsl &gt; index.html' permettant de transformer les données du fichier XML par la feuille de style XSLT et d'écrire le résultat dans un fichier HTML.
+				</texte>
+				<texte>
+					La deuxième page 'Recherche plein text' permet de rechercher des informations dans les documents et d'afficher le résultat obtenu. Cette interface a été créée à l'aide du code HTML et du XQuery, et offre de diverses options pour choisir une date : Comme nous avons deux dates à disposition (date de parution et date de source), nous pouvons d'une part en choisir une, d'autre part définir une marge d'années (1800 pour 1800-1899).
+				</texte>
+				<texte>
+					La dernière page permet de présenter le contenu des documents à l'aide de la CSS, nous avons trois boutons permettant d'accéder à chacun des trois articles.
+				</texte>
+			</etapes>
+		</presentation>
+		<navigation>
+			<link url="index.html">
+				La page d'accueil
+			</link>
+			<link url="recherche.html">
+				La page de recherche plein texte
+			</link>
+			<link url="affichage.html">
+				La page d'affichage
+			</link>
+		</navigation>
+		<difficulte>
+			<texte>
+				L'une des difficultés rencontrées lors de l'élaboration du site est d'avoir plusieurs langages de programmation qui font parfois la confusion. Au début, ce sont XQuery et XSLT que j'ai du mal à les différencier, mais la pratique pendant la constitution des pages m'a permis de rendre compte des différences entre ces deux langages.
+			</texte>
+			<texte>
+				L'autre difficulté est la partie CSS, j'ai essayé d'écrire dans le fichier 'resources/css/style.css' mais les mises en page ne fonctionnaient pas malgré le chemin absolu bien indiqué. J'ai alors choisi la méthode d'écrire la CSS directement dans le fichier html car elle semble marcher parfaitement contrairement à la css dans le fichier style.css. 
+			</texte>
+		</difficulte>
+	</body>
+</page>

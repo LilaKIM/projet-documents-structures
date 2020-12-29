@@ -1,0 +1,16 @@
+<collection xmlns="http://exist.sourceforge.net/NS/exist" name="/db/apps/documents-structures/resources" version="1" owner="admin" group="dba" mode="775" created="2020-12-10T16:49:37.761+01:00">
+    <acl entries="0" version="1"/>
+    <resource type="XMLResource" name="index.rng" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T20:16:47.604+01:00" modified="2020-12-29T20:16:47.604+01:00" filename="index.rng" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.xml" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T20:16:47.667+01:00" modified="2020-12-29T20:16:47.667+01:00" filename="index.xml" mimetype="application/xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="index.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T19:06:24.704+01:00" modified="2020-12-29T20:25:25.978+01:00" filename="index.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <resource type="XMLResource" name="afficheTexte.xsl" skip="no" owner="admin" group="dba" mode="644" created="2020-12-29T20:17:57.798+01:00" modified="2020-12-29T20:18:15.545+01:00" filename="afficheTexte.xsl" mimetype="application/xslt+xml">
+        <acl entries="0" version="1"/>
+    </resource>
+    <subcollection name="css" filename="css"/>
+</collection>
